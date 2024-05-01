@@ -59,7 +59,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rubocop-rspec", "~> 1.30"
 
   spec.add_dependency "rails", ">= 5.2.3", "< 8.1.0"
-  spec.add_runtime_dependency "railties", "> 4.0", "< 6.1"
+  spec.add_runtime_dependency "railties", "> 4.0", "< 8.1"
 
   spec.extra_rdoc_files = Dir["README*", "LICENSE*"]
   spec.require_paths = ["lib"]
